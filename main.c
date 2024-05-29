@@ -60,8 +60,13 @@ int main(void) {
                     break;
                 case '-':
                     printf("Total = %i\n", addition(x, y));
+                    break;
                 case '*':
                     printf("Total = %i\n", multiplication(x, y));
+                    break;
+                case '/':
+                    printf("Total = %i\n", division(x, y));
+                    break;
                 default:
                     break;
             }
